@@ -1,5 +1,5 @@
 # Define parameters
-$tfsCollectionUrl = New-Object System.URI("http://tfs.prodam:8080/tfs/tpc_prodam"); 
+$tfsCollectionUrl = New-Object System.URI("http://tfs.xxxx:8080/tfs/collection"); 
 
 # Load Client Assembly
 [Reflection.Assembly]::Load(“Microsoft.TeamFoundation.Client, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”);
